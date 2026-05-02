@@ -1,0 +1,16 @@
+{
+  "metadata": {
+    "title": "My Hero Academia Movie Database",
+    "version": "1.0.0",
+    "lastUpdated": "2026-04-28",
+    "totalMovies": 4
+  },
+  "movies": [
+    {
+      "id": 1,
+      "title": "My Hero Academia: Two Heroes",
+      "releaseYear": 2018,
+      "timeline": "Between Season 2 and Season 3",
+      "runtime": "96 minutes",
+      "studio": "Bones",
+      "director": "Kenji Naga...
