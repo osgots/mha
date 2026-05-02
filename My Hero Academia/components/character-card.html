@@ -1,0 +1,73 @@
+<!-- Reusable Character Card Component -->
+<template id="character-card-template">
+  <article class="character-card" data-character-card>
+    <div class="character-card-inner">
+      <div class="character-image-wrapper">
+        <img
+          src="assets/images/characters/placeholder.jpg"
+          alt="Character Portrait"
+          class="character-image"
+          loading="lazy"
+        />
+
+        <div class="character-overlay">
+          <span class="character-role">Hero</span>
+          <span class="character-status">Active</span>
+        </div>
+      </div>
+
+      <div class="character-content">
+        <div class="character-header">
+          <h3 class="character-name">Izuku Midoriya</h3>
+          <span class="character-japanese">緑谷 出久</span>
+        </div>
+
+        <p class="character-alias">Hero Name: <strong>Deku</strong></p>
+
+        <div class="character-meta">
+          <span class="meta-item"><strong>Quirk:</strong> One For All</span>
+          <span class="meta-item"><strong>Affiliation:</strong> U.A. High School</span>
+          <span class="meta-item"><strong>Class:</strong> 1-A</span>
+        </div>
+
+        <p class="character-description">
+          A determined young hero who inherited One For All and strives to become the
+          greatest hero by protecting others with courage, intelligence, and compassion.
+        </p>
+
+        <div class="character-stats">
+          <div class="stat-bar" data-stat="power">
+            <span>Power</span>
+            <div class="bar"><div class="fill" style="width: 95%"></div></div>
+          </div>
+          <div class="stat-bar" data-stat="speed">
+            <span>Speed</span>
+            <div class="bar"><div class="fill" style="width: 88%"></div></div>
+          </div>
+          <div class="stat-bar" data-stat="intelligence">
+            <span>Intelligence</span>
+            <div class="bar"><div class="fill" style="width: 97%"></div></div>
+          </div>
+        </div>
+
+        <div class="character-actions">
+          <button class="btn btn-primary view-profile-btn" type="button">
+            View Profile
+          </button>
+          <button class="btn btn-secondary favorite-btn" type="button" aria-label="Add to favorites">
+            ❤ Favorite
+          </button>
+        </div>
+      </div>
+    </div>
+  </article>
+</template>
+
+<!-- Example Usage Container -->
+<section class="character-card-showcase">
+  <div class="container">
+    <div class="character-grid" id="characterGrid">
+      <!-- Character cards will be dynamically injected here via characters.js -->
+    </div>
+  </div>
+</section>

@@ -1,0 +1,19 @@
+{
+  "metadata": {
+    "title": "My Hero Academia Inspirational Quotes Database",
+    "version": "1.0.0",
+    "lastUpdated": "2026-04-28",
+    "totalQuotes": 40,
+    "categories": [
+      "heroism",
+      "determination",
+      "friendship",
+      "inspiration",
+      "villainy",
+      "wisdom"
+    ]
+  },
+  "quotes": [
+    {
+      "id": 1,
+      "text": "When you have t...
